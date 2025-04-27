@@ -118,7 +118,7 @@ if __name__ == "__main__":
     plt.grid(True, which="both", ls="--", alpha=0.5)
     plt.legend(fontsize=10, loc='upper right')
     plt.tight_layout()
-    plt.savefig('/home/taffy/LISA/sensitivity.png', dpi=400, bbox_inches='tight')
+    plt.savefig('~/sensitivity.png', dpi=400, bbox_inches='tight')
     plt.close()
 
     print("\nUsing sqSnoise_SciRD = [3e-15, 15e-12]:")
