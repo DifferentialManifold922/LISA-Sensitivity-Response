@@ -24,7 +24,7 @@ def semi_analytical_response_x20(f, L):
     return term1 * term2 * term3 * term4
 
 #Load simulation data
-data_path = '/home/taffy/LISA/lisa_sensitivity_snr-master-Data/Data/PSD_LC2_Sim_LISA_XYZAETAmEmTm_1yr_SGWB1_NoNoise_12345x-TDI_X20.npy'
+data_path = '~/lisa_sensitivity_snr-master-Data/Data/PSD_LC2_Sim_LISA_XYZAETAmEmTm_1yr_SGWB1_NoNoise_12345x-TDI_X20.npy'
 PSD_GWLCX20 = np.load(data_path)
 
 #Get the frequency range from simulation data
@@ -62,5 +62,5 @@ plt.xlim([f_min, f_max])
 plt.ylim([1e-12, 1e2])
 plt.legend()
 plt.grid(True)
-plt.savefig('/home/taffy/LISA/numerical_semi_response.png', dpi=300, bbox_inches='tight')
+plt.savefig('~/numerical_semi_response.png', dpi=300, bbox_inches='tight')
 plt.close()
