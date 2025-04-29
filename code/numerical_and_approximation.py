@@ -85,7 +85,7 @@ if __name__ == "__main__":
     plt.title(r'Averaged Antenna Response and Correction Term vs. Frequency')
     plt.grid(True, which="both", ls="--")
     plt.legend()
-    plt.savefig('Numerical_approximation.png', dpi=300, bbox_inches='tight')
+    plt.savefig('results/Numerical_approximation.png', dpi=300, bbox_inches='tight')
     plt.show()
 
    
