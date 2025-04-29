@@ -193,4 +193,4 @@ if __name__ == "__main__":
     
     plt.title('Averaged Antenna Response Functions and Cross Term', fontsize=14)
     plt.tight_layout()
-    plt.savefig('~/mainfig.png', dpi=300, bbox_inches='tight')
+    plt.savefig('results/mainfig.png', dpi=300, bbox_inches='tight')
